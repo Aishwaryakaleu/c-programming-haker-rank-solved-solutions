@@ -1,0 +1,36 @@
+To add integer value and real value by setting precision for real value (with the input given)
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+
+  int a;
+  int b;
+  int c;
+  int d;
+  scanf ("%d", &a);
+  scanf ("%d", &b);
+  c = a + b; 
+  d = a - b;
+  printf("%d\ ",c);
+  printf("%d\n",d);
+  
+  float p;
+  float q;
+  float r;
+  float s;
+  scanf ("%f", &p);
+  scanf ("%f", &q);
+  r = p + q;
+  s = p - q;
+  printf("%0.1f\ ",r);
+  printf("%0.1f",s);
+  
+  
+  ----------------------------------------------------****************************---------------------------------------
+  
+
